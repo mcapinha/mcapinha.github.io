@@ -1,0 +1,25 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               blog.capinha.net
+tagline:             ''
+description:         "Manuel Capinha's musings about technology"
+url:                 http://blog.capinha.net/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Manuel Capinha
+  url:               https://twitter.com/mcapinha
+  email:             manuel@capinha.net
+
+# Custom vars
+version:             1.0.0
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
